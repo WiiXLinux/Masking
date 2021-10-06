@@ -68,7 +68,8 @@ public final class PictureViewer implements ActionListener {
 			menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,
 					Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
 			menu.add(menuItem);
-			
+
+			frame.setIconImage(image);
 			frame.setJMenuBar(menuBar);
 			frame.setContentPane(getJLabel());
 			frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
