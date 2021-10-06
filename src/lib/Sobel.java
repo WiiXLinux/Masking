@@ -40,6 +40,7 @@ public class Sobel extends Faltung {
 
 	}
 
+	@Override
 	public void calculateValue(SobelType type) {
 		double temp = 0;
 

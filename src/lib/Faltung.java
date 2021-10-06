@@ -69,7 +69,9 @@ public class Faltung {
 	
 }
 
-	
+	public void calculateValue(Sobel.SobelType sobelType) {
+
+	}
 	
 	public void calculateValue() {
 		double temp = 0;
